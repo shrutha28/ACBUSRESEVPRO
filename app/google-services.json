@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627398977513",
+    "firebase_url": "https://srinifire-152f0.firebaseio.com",
+    "project_id": "srinifire-152f0",
+    "storage_bucket": "srinifire-152f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627398977513:android:19a576678d5caf04860d78",
+        "android_client_info": {
+          "package_name": "com.example.srinifire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627398977513-gki1n9iipsgueekv5n0k8afpkanm9dh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srinifire",
+            "certificate_hash": "453df61302c301aaefe2d8e4e5827c0dda9e3b24"
+          }
+        },
+        {
+          "client_id": "627398977513-tqdhufhdkq4ghmuv2nskpbfoeniv28uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYfA9i800-ib_1_3WyY0jhjSq_ASYHwE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627398977513-tqdhufhdkq4ghmuv2nskpbfoeniv28uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
