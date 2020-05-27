@@ -11,6 +11,8 @@ The back behind this project is the use of login activity which assures a valid 
 
 
 WORKING:
+
+
 The app is basically designed with android studios with java based code.
 Initially the app starts working with a main activity which is a basic login page that takes the user name and password as the basic login info. Upon successful completion of the login details the app directs you in to a bus schedule link page that helps the students to check the bus schedule to find out the availability of the bus on that day. The next page has the bus info entry page that takes route number as the   input and directs the user into the bus view  page .
 The bus internal view page has a layout of the entire bus that provides layout of the bus .The user has the privilege to choose the   seat. The seat has the specification whether the seat is a normal seat or a window seat.
