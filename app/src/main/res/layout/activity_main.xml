@@ -8,6 +8,8 @@
     tools:context=".MainActivity">
 
     <TextView
+
+        android:paddingLeft="20dp"
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,9 +26,11 @@
 
     <EditText
         android:id="@+id/EditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="54dp"
+        android:background="@drawable/customedittext"
         android:ems="10"
+        android:paddingLeft="10dp"
         android:hint="Student Name"
         android:inputType="textPersonName"
         android:textColor="#43A047"
@@ -38,10 +42,12 @@
 
     <EditText
         android:id="@+id/etpassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="314dp"
+        android:layout_height="54dp"
+        android:background="@drawable/customedittext"
         android:ems="10"
         android:hint="Password"
+        android:paddingLeft="10dp"
         android:inputType="textPassword"
         android:textColor="#43A047"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,8 +62,9 @@
         android:layout_height="wrap_content"
         android:text="Sri Venkateswara College of Engineering"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#F44336"
+        android:textColor="@android:color/black"
         app:fontFamily="serif"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,10 +73,13 @@
 
     <Button
         android:id="@+id/btnlogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#B388FF"
+        android:layout_width="333dp"
+        android:layout_height="57dp"
+        android:background="@drawable/custombtn"
         android:text="LOGIN"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

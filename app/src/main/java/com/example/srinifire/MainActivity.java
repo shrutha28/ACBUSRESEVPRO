@@ -47,6 +47,11 @@ import android.widget.TextView;
         });
     }
 
+     @Override
+            protected void onStart() {
+                super.onStart();
+                getSupportActionBar().hide();
+            }
 
 
 
